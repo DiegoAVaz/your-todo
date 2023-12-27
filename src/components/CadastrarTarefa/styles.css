@@ -1,0 +1,71 @@
+.containerCadastro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal {
+  background-color: #1f4547;
+  border: 1px solid #bfa575;
+  padding: 20px;
+  width: 80%;
+  max-width: 400px;
+  color: #fff;
+}
+
+button {
+  cursor: pointer;
+  padding: 10px 20px;
+  background-color: #bfa575;
+  color: #1f4547;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button:hover {
+  background-color: #b5a78e;
+  color: #1f4547;
+}
+
+.form label {
+  display: block;
+  margin-bottom: 10px;
+  color: #bfa575;
+}
+
+.form input,
+.form textarea {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #bfa575;
+  border-radius: 5px;
+}
+
+.form button {
+  width: 100%;
+}
+
+.form button:hover {
+  background-color: #b5a78e;
+  color: #1f4547;
+}
+
+.addTaskTitle {
+  color: #bfa575;
+}

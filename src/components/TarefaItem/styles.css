@@ -1,0 +1,114 @@
+.tarefa-list {
+  list-style: none;
+  padding: 0;
+  color: #bfa575;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 90%;
+}
+
+.tarefa-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1f4547;
+  border: 1px solid #bfa575;
+  padding: 10px;
+  color: #fff;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  width: 90%;
+  max-width: 500px;
+}
+
+.tarefa-header {
+  background-color: #1f4547;
+  border: 1px solid #bfa575;
+  padding: 10px;
+  color: #fff;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+}
+
+.tarefa-header span,
+.tarefa-item span {
+  flex: 1;
+  margin-right: 10px;
+}
+
+button {
+  cursor: pointer;
+  padding: 5px 10px;
+  background-color: #bfa575;
+  color: #1f4547;
+  border: none;
+  border-radius: 5px;
+}
+
+.acoes {
+  width: 33%;
+}
+
+.acoes button {
+  width: 100%;
+}
+
+.editarBtn {
+  margin-bottom: 5px;
+}
+
+.dataHora {
+  width: 33%;
+}
+
+button:hover {
+  background-color: #1f4547;
+  color: #bfa575;
+}
+
+.tarefa-list {
+  padding: 20px;
+}
+
+.empty-message {
+  text-align: center;
+  font-size: 18px;
+  color: #bfa575;
+  margin-top: 20px;
+  padding: 20px;
+  border: 2px dashed #bfa575;
+  border-radius: 8px;
+  background-color: #1f4547;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@media (max-width: 330px) {
+  .icone {
+    display: none;
+  }
+  .actBtnText {
+    display: none;
+  }
+}
+
+.tarefa-item.desativada {
+  background-color: #555;
+}

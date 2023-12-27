@@ -1,0 +1,21 @@
+/* Adicione estas regras ao seu arquivo styles.css ou estilos globais */
+
+.logout-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #ff4040; /* Vermelho */
+  color: #fff; /* Texto branco */
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logout-icon {
+  margin-right: 8px;
+}
